@@ -13,6 +13,7 @@
     <RepositoryUrl>https://github.com/nunobaraujo/NBsoft.Translator</RepositoryUrl>
     <PackageTags>translator xaml csv</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>

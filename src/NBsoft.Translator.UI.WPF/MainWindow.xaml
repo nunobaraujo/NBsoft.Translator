@@ -7,6 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="100*" />
+        </Grid.RowDefinitions>
+        <Border IsEnabled="{Binding CanChangeFolder, Mode=OneWay}">
+            <Grid>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Language Directory" />
+                    <TextBox MinWidth="200" Margin="10,0,0,0" Text="{Binding ChosenDirectory, Mode=TwoWay}" />
+                    <Button Name="BtnBrowse" Width="80" Margin="10,0,0,0" Click="BtnBrowse_Click">Browse</Button>
+                    <Button Name="BtnInitialize" Width="80" Margin="10,0,0,0" Click="BtnInitialize_Click">Initialize</Button>
+
+                </StackPanel>
+            </Grid>
+        </Border>
         
     </Grid>
 </Window>

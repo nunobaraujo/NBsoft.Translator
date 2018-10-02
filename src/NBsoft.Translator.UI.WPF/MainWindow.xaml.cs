@@ -20,9 +20,22 @@ namespace NBsoft.Translator.UI.WPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        MainWindowViewModel model;
         public MainWindow()
         {
             InitializeComponent();
+            model = new MainWindowViewModel();
+            DataContext = model;
+        }
+        private void BtnBrowse_Click(object sender, RoutedEventArgs e)
+        {
+            
+
+        }
+
+        private void BtnInitialize_Click(object sender, RoutedEventArgs e)
+        {
+            model.InitializeTranslatorManager(model.ChosenDirectory);
         }
     }
 }
