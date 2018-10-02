@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>nbsoft.pt</Authors>
+    <Company>nbsoft.pt</Company>
+    <Product>NBsoft.Translator</Product>
+    <Description>Translator Service</Description>
+    <Copyright>© 2018 Nuno Benjamim Salgado Alves de Araújo</Copyright>
+    <PackageLicenseUrl>https://github.com/nunobaraujo/NBsoft.Translator/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/nunobaraujo/NBsoft.Logs.MySql</PackageProjectUrl>
+    <PackageIconUrl>http://nbsoft.pt/V1/favicon.ico</PackageIconUrl>
+    <RepositoryUrl>https://github.com/nunobaraujo/NBsoft.Logs.MySql</RepositoryUrl>
+    <PackageTags>translator xaml csv</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+</Project>

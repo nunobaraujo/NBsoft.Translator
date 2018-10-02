@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBsoft.Translator", "src\NBsoft.Translator\NBsoft.Translator.csproj", "{F0B95CF7-296B-4DE8-938E-407A2E84E808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBsoft.Translator.UI.WPF", "src\NBsoft.Translator.UI.WPF\NBsoft.Translator.UI.WPF.csproj", "{577715D8-A412-4540-ABE9-624C495BABA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E35B096F-0450-4FAD-9BC2-DAFF7239023C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0B95CF7-296B-4DE8-938E-407A2E84E808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B95CF7-296B-4DE8-938E-407A2E84E808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B95CF7-296B-4DE8-938E-407A2E84E808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B95CF7-296B-4DE8-938E-407A2E84E808}.Release|Any CPU.Build.0 = Release|Any CPU
+		{577715D8-A412-4540-ABE9-624C495BABA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577715D8-A412-4540-ABE9-624C495BABA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577715D8-A412-4540-ABE9-624C495BABA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577715D8-A412-4540-ABE9-624C495BABA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1E8A608-9DC4-488D-BE6B-3AD0E404F346}
+	EndGlobalSection
+EndGlobal
