@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -36,6 +37,7 @@ namespace NBsoft.Translator.UI.WPF
         private void BtnInitialize_Click(object sender, RoutedEventArgs e)
         {
             model.InitializeTranslatorManager(model.ChosenDirectory);
+            DG1.ItemsSource = model.Table.AsDataView();
         }
     }
 }

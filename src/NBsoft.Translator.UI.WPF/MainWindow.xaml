@@ -22,6 +22,12 @@
                 </StackPanel>
             </Grid>
         </Border>
-        
+        <Border Grid.Row="1">
+            <Grid>
+                <DataGrid Name="DG1" AutoGenerateColumns="True">
+                   
+                </DataGrid>
+            </Grid>
+        </Border>
     </Grid>
 </Window>

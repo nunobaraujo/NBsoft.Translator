@@ -67,6 +67,12 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <None Include="Translates\EN-us.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Translates\PT-pt.xaml">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainWindowViewModel.cs" />
@@ -100,6 +106,11 @@
       <Project>{f0b95cf7-296b-4de8-938e-407a2e84e808}</Project>
       <Name>NBsoft.Translator</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Translates\EN-us.png" />
+    <None Include="Translates\PT-pt.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
